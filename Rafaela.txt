@@ -1,0 +1,50 @@
+
+copy con Nota02.txt
+
+cd ..
+cd Atividades01
+del Nota01.txt
+dir
+del Nota02.txt
+dir
+cd ..
+doskey /history/
+doskey /history
+doskey /history >> hist¢rico.txt
+type hist¢rico.txt
+cls
+cd ..
+dir
+cd Deskop
+cd Desktop
+ren C:\Users\Aluno\Atividades01" Trabalhos
+ren Atividades01 Trabalho
+dir
+md Documentos
+dir
+cd Documentos
+echo teste1 >> Projetos.txt
+echo teste2 >> Pessoais.txt
+dir
+del Pessoais.txt
+del Projetos.txt
+md Projetos 
+md Pessoais
+cd ..
+move Trabalho Documentos 
+move Backup Documentos 
+cd Documentos 
+dir
+ren Pessoais Lazer
+dir
+cd Lazer
+copy con Viagens.txt
+Portugal
+Canada
+Paraguai
+japao
+Egito
+
+cd ..
+tree /f
+doskey /history >> Rafaela.txt
